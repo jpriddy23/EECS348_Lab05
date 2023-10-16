@@ -35,7 +35,7 @@ int main() {
     scanf("%d", &score);
 
     // Exit if the score is 0 or 1
-    if (score == 0 || score == 1) {
+    if (score <= 1) {
         return 0;
     }
     
